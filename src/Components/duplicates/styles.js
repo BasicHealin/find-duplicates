@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Content = styled.div`
   position: relative;
@@ -39,6 +39,12 @@ export const DuplicatedElement = styled.span`
   width: 30px;
   height: 30px;
   margin: 8px 0 0 16px;
+  ${(props) =>
+    props.isSelected &&
+    css`
+      border-bottom: 3px solid #b1c381;
+      padding: 2px 8px;
+    `}
 `;
 
 export const HoverText = styled.span`
@@ -90,4 +96,32 @@ export const Button = styled.button`
 
 export const Title = styled.h2`
   text-align: justify;
+`;
+
+export const SubTitle = styled.span`
+  text-align: justify;
+`;
+
+export const ItemsContainer = styled.div`
+  display: inline-block;
+  border: ${(props) => (props.withBorder ? "1px solid #3498db" : "none")};
+  padding: ${(props) => (props.withBorder ? "8px" : "0")};
+  margin: ${(props) => (props.withBorder ? "8px 0" : "0")};
+`;
+
+export const Item = styled.span`
+  font-size: 22px;
+  width: 30px;
+  height: 30px;
+  ${(props) =>
+    props.isSpecial &&
+    css`
+      border-bottom: 3px solid #db8234;
+      padding: 2px 8px;
+    `}
+`;
+
+export const Arrays = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
