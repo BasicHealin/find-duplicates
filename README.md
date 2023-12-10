@@ -39,7 +39,7 @@ Array Analyzer is a React web application that allows users to manage and analyz
    # or
    yarn install
 
-   2. runing the project:
+2. runing the project:
 
    ```bash
    npm start
