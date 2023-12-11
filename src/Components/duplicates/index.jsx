@@ -1,7 +1,7 @@
 import React, { useReducer, Fragment } from "react";
 import { useShallowEffect } from "@mantine/hooks";
-import { reducer, initialState } from "./reducer";
-import { WITH_BORDER } from "./constants";
+import { reducer, initialState } from "Components/duplicates/reducer";
+import { WITH_BORDER } from "Components/duplicates/constants";
 import {
   Count,
   Container,

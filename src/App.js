@@ -1,4 +1,4 @@
-import Duplicates from "./Components/duplicates";
+import Duplicates from "Components/duplicates";
 import "./styles.css";
 
 const App = () => {
