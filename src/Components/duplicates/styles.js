@@ -41,6 +41,7 @@ export const DuplicatedElement = styled.span`
   width: 30px;
   height: 30px;
   margin: 8px 0 0 16px;
+  cursor: pointer;
 
   &:hover {
     background-color: ${colors.LIGHT_GRAY};
