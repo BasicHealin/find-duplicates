@@ -1,7 +1,7 @@
 # Array Analyzer Web App
 
 Array Analyzer is a React web application that allows users to manage and analyze numerical arrays. Users can add elements to the array, identify duplicated elements, view their occurrence count, and highlight occurrences and indexes.
- - Demo :`https://6mzhmd.csb.app/`
+ - Demo :`https://6mzhmd-3000.csb.app/`
 
 ## Features
 
